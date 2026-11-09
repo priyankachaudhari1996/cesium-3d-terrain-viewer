@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    { "type": "Feature", "properties": { "name": "Mount Everest", "elevation_m": 8849, "country": "Nepal / China" }, "geometry": { "type": "Point", "coordinates": [86.925, 27.9881] } },
+    { "type": "Feature", "properties": { "name": "Grand Canyon", "elevation_m": 2100, "country": "USA" }, "geometry": { "type": "Point", "coordinates": [-112.1129, 36.1069] } },
+    { "type": "Feature", "properties": { "name": "Mont Blanc", "elevation_m": 4806, "country": "France / Italy" }, "geometry": { "type": "Point", "coordinates": [6.8652, 45.8326] } },
+    { "type": "Feature", "properties": { "name": "Kedarnath", "elevation_m": 3583, "country": "India" }, "geometry": { "type": "Point", "coordinates": [79.0669, 30.7352] } },
+    { "type": "Feature", "properties": { "name": "Manhattan", "elevation_m": 10, "country": "USA" }, "geometry": { "type": "Point", "coordinates": [-73.9857, 40.7484] } }
+  ]
+}

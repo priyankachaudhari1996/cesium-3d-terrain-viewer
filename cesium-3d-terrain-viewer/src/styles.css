@@ -1,0 +1,17 @@
+:root { --ink:#13232b; --muted:#5b6b73; --line:#d6dfe2; --accent:#0f766e; --bg:#f7fafa; }
+* { box-sizing: border-box; }
+html, body, #root { margin:0; height:100%; font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink); }
+.app { display:flex; height:100%; }
+.panel { width:300px; padding:20px; background:var(--bg); border-right:1px solid var(--line); overflow-y:auto; }
+.panel h1 { font-size:20px; margin:0 0 6px; }
+.panel h2 { font-size:14px; margin:20px 0 8px; color:var(--accent); }
+.lead { color:var(--muted); font-size:13px; line-height:1.5; margin:0; }
+.panel label { display:flex; gap:8px; align-items:center; font-size:14px; margin:6px 0; cursor:pointer; }
+.places { list-style:none; padding:0; margin:0; }
+.places button { width:100%; text-align:left; padding:8px 10px; margin-bottom:4px; border:1px solid var(--line); background:#fff; border-radius:6px; cursor:pointer; font-size:14px; }
+.places button:hover, .places button:focus-visible { border-color:var(--accent); outline:none; }
+.picked { margin-top:16px; padding:12px; background:#fff; border-left:3px solid var(--accent); }
+.picked p { margin:4px 0; font-size:13px; }
+.error { color:#b42318; font-size:13px; }
+.globe { flex:1; position:relative; }
+@media (max-width: 700px) { .app { flex-direction:column; } .panel { width:100%; max-height:40%; } }
